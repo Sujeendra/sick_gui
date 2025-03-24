@@ -1,0 +1,32 @@
+calibration_date: "2025-01-18 22:01:53"
+camera_matrix:
+  columns: 3
+  data:
+    - 1004.83655123703
+    - 0.0
+    - 232.09999434572921
+    - 0.0
+    - 1025.8541053434724
+    - 413.3616411687759
+    - 0.0
+    - 0.0
+    - 1.0
+  rows: 3
+chessboard:
+  pattern_size:
+    columns: 9
+    rows: 7
+  square_size_meters: 0.41
+distortion_coefficients:
+  columns: 5
+  data:
+    - -1.1972790030031548
+    - 4.780474216159687
+    - -0.04947625944648619
+    - 0.01564526323953031
+    - -7.772324243858991
+  rows: 1
+image_size:
+  height: 480
+  width: 640
+rms_reprojection_error: 2.071667360850824

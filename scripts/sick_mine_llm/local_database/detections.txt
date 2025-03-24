@@ -1,0 +1,45 @@
+At timestamp 99, detected objects:  
+ - person: 0.630244, RGB: (152.126, 146.863, 116.62)  
+  
+At timestamp 100, detected objects:  
+ - person: 0.630244, RGB: (152.126, 146.863, 116.62)  
+  
+At timestamp 101, detected objects:  
+ - person: 0.630244, RGB: (152.126, 146.863, 116.62)  
+  
+At timestamp 102, detected objects:  
+  
+At timestamp 103, detected objects:  
+  
+At timestamp 104, detected objects:  
+  
+At timestamp 105, detected objects:  
+  
+At timestamp 106, detected objects:  
+  
+At timestamp 107, detected objects:  
+  
+At timestamp 108, detected objects:  
+  
+At timestamp 109, detected objects:  
+  
+At timestamp 117, detected objects:  
+  
+At timestamp 118, detected objects:  
+ - person: 0.622401, RGB: (150.464, 146.521, 116.117)  
+ - person: 0.930466, RGB: (148.592, 146.007, 113.996)  
+  
+At timestamp 119, detected objects:  
+ - person: 0.622401, RGB: (150.464, 146.521, 116.117)  
+ - person: 0.930466, RGB: (148.592, 146.007, 113.996)  
+  
+At timestamp 120, detected objects:  
+ - person: 0.807795, RGB: (147.957, 142.915, 113.49)  
+  
+At timestamp 121, detected objects:  
+ - person: 0.807795, RGB: (147.957, 142.915, 113.49)  
+  
+At timestamp 122, detected objects:  
+ - person: 0.807795, RGB: (147.957, 142.915, 113.49)  
+  
+At timestamp 321, detected objects:  

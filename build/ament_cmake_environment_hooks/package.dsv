@@ -1,0 +1,4 @@
+source;share/sick_mine_viewer/local_setup.bash
+source;share/sick_mine_viewer/local_setup.dsv
+source;share/sick_mine_viewer/local_setup.sh
+source;share/sick_mine_viewer/local_setup.zsh

@@ -1,0 +1,1732 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.8.0-49-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/lib/ccache/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/sujee/sick_gui/build/CMakeFiles/3.31.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/lib/ccache/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/sujee/sick_gui/build/CMakeFiles/3.31.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-IR8VrS"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-IR8VrS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-IR8VrS'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_def8d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_def8d.dir/build.make CMakeFiles/cmTC_def8d.dir/build
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-IR8VrS'
+        Building C object CMakeFiles/cmTC_def8d.dir/CMakeCCompilerABI.c.o
+        /usr/lib/ccache/gcc   -v -o CMakeFiles/cmTC_def8d.dir/CMakeCCompilerABI.c.o -c /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_34368.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34368.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_34368.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccibHhIh.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_34368.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34368.dir/'
+         as -v --64 -o CMakeFiles/cmTC_34368.dir/CMakeCCompilerABI.c.o /tmp/ccibHhIh.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_34368.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34368.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_def8d
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_def8d.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_def8d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_def8d.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNTZrRL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_def8d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_def8d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNTZrRL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_def8d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_def8d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_def8d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_def8d.'
+        /usr/lib/ccache/gcc  -v -Wl,-v CMakeFiles/cmTC_def8d.dir/CMakeCCompilerABI.c.o -o cmTC_def8d
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-IR8VrS'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-IR8VrS']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_def8d/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_def8d.dir/build.make CMakeFiles/cmTC_def8d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-IR8VrS']
+        ignore line: [Building C object CMakeFiles/cmTC_def8d.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/lib/ccache/gcc   -v -o CMakeFiles/cmTC_def8d.dir/CMakeCCompilerABI.c.o -c /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_34368.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34368.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_34368.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccibHhIh.s]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_34368.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34368.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_34368.dir/CMakeCCompilerABI.c.o /tmp/ccibHhIh.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_34368.dir/CMakeCCompilerABI.c.o' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34368.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_def8d]
+        ignore line: [/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_def8d.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_def8d' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_def8d.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNTZrRL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_def8d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_def8d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNTZrRL.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_def8d] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_def8d.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNTZrRL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_def8d /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_def8d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ydvDVJ"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ydvDVJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ydvDVJ'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_afdf3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_afdf3.dir/build.make CMakeFiles/cmTC_afdf3.dir/build
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ydvDVJ'
+        Building CXX object CMakeFiles/cmTC_afdf3.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/lib/ccache/g++   -v -o CMakeFiles/cmTC_afdf3.dir/CMakeCXXCompilerABI.cpp.o -c /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_81d48.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_81d48.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_81d48.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cculwMFu.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_81d48.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_81d48.dir/'
+         as -v --64 -o CMakeFiles/cmTC_81d48.dir/CMakeCXXCompilerABI.cpp.o /tmp/cculwMFu.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_81d48.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_81d48.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_afdf3
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afdf3.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_afdf3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_afdf3.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNknGhL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_afdf3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_afdf3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNknGhL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_afdf3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_afdf3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_afdf3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_afdf3.'
+        /usr/lib/ccache/g++  -v -Wl,-v CMakeFiles/cmTC_afdf3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_afdf3
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ydvDVJ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ydvDVJ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_afdf3/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_afdf3.dir/build.make CMakeFiles/cmTC_afdf3.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ydvDVJ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_afdf3.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/lib/ccache/g++   -v -o CMakeFiles/cmTC_afdf3.dir/CMakeCXXCompilerABI.cpp.o -c /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_81d48.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_81d48.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_81d48.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cculwMFu.s]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_81d48.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_81d48.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_81d48.dir/CMakeCXXCompilerABI.cpp.o /tmp/cculwMFu.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_81d48.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_81d48.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_afdf3]
+        ignore line: [/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afdf3.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_afdf3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_afdf3.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNknGhL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_afdf3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_afdf3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNknGhL.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_afdf3] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_afdf3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNknGhL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_afdf3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_afdf3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ViIv0E"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ViIv0E"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ViIv0E'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7e630/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7e630.dir/build.make CMakeFiles/cmTC_7e630.dir/build
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ViIv0E'
+        Building C object CMakeFiles/cmTC_7e630.dir/src.c.o
+        /usr/lib/ccache/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7e630.dir/src.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ViIv0E/src.c
+        Linking C executable cmTC_7e630
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e630.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc CMakeFiles/cmTC_7e630.dir/src.c.o -o cmTC_7e630
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-ViIv0E'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-C27duM"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-C27duM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-C27duM'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_10844/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-C27duM'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_10844.dir/build.make CMakeFiles/cmTC_10844.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-C27duM'
+        Building C object CMakeFiles/cmTC_10844.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_10844.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-C27duM/test_mpi.c
+        Linking C executable cmTC_10844
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10844.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_10844.dir/test_mpi.c.o -o cmTC_10844  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-C27duM'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-C27duM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindX11.cmake:693 (check_library_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-5UR9Lr"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-5UR9Lr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-5UR9Lr'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4be3/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-5UR9Lr'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d4be3.dir/build.make CMakeFiles/cmTC_d4be3.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-5UR9Lr'
+        Building C object CMakeFiles/cmTC_d4be3.dir/CheckFunctionExists.c.o
+        /usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_d4be3.dir/CheckFunctionExists.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-5UR9Lr/CheckFunctionExists.c
+        Linking C executable cmTC_d4be3
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4be3.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_d4be3.dir/CheckFunctionExists.c.o -o cmTC_d4be3  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-5UR9Lr'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-5UR9Lr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindX11.cmake:708 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-tuduAa"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-tuduAa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-tuduAa'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_72e2f/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-tuduAa'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_72e2f.dir/build.make CMakeFiles/cmTC_72e2f.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-tuduAa'
+        Building C object CMakeFiles/cmTC_72e2f.dir/CheckFunctionExists.c.o
+        /usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_72e2f.dir/CheckFunctionExists.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-tuduAa/CheckFunctionExists.c
+        Linking C executable cmTC_72e2f
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72e2f.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_72e2f.dir/CheckFunctionExists.c.o -o cmTC_72e2f
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-tuduAa'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-tuduAa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindX11.cmake:722 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-jQWZd1"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-jQWZd1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-jQWZd1'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a78d3/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-jQWZd1'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a78d3.dir/build.make CMakeFiles/cmTC_a78d3.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-jQWZd1'
+        Building C object CMakeFiles/cmTC_a78d3.dir/CheckFunctionExists.c.o
+        /usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_a78d3.dir/CheckFunctionExists.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-jQWZd1/CheckFunctionExists.c
+        Linking C executable cmTC_a78d3
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a78d3.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_a78d3.dir/CheckFunctionExists.c.o -o cmTC_a78d3
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-jQWZd1'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-jQWZd1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindX11.cmake:731 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-e6pIO1"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-e6pIO1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-e6pIO1'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3d204/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-e6pIO1'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3d204.dir/build.make CMakeFiles/cmTC_3d204.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-e6pIO1'
+        Building C object CMakeFiles/cmTC_3d204.dir/CheckFunctionExists.c.o
+        /usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_3d204.dir/CheckFunctionExists.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-e6pIO1/CheckFunctionExists.c
+        Linking C executable cmTC_3d204
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d204.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_3d204.dir/CheckFunctionExists.c.o -o cmTC_3d204
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-e6pIO1'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-e6pIO1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindX11.cmake:740 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-yBo5uA"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-yBo5uA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-yBo5uA'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15933/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-yBo5uA'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_15933.dir/build.make CMakeFiles/cmTC_15933.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-yBo5uA'
+        Building C object CMakeFiles/cmTC_15933.dir/CheckFunctionExists.c.o
+        /usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_15933.dir/CheckFunctionExists.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-yBo5uA/CheckFunctionExists.c
+        Linking C executable cmTC_15933
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15933.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_15933.dir/CheckFunctionExists.c.o -o cmTC_15933
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-yBo5uA'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-yBo5uA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindX11.cmake:750 (check_library_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-UrOFFa"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-UrOFFa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-UrOFFa'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7c6ff/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-UrOFFa'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7c6ff.dir/build.make CMakeFiles/cmTC_7c6ff.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-UrOFFa'
+        Building C object CMakeFiles/cmTC_7c6ff.dir/CheckFunctionExists.c.o
+        /usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_7c6ff.dir/CheckFunctionExists.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-UrOFFa/CheckFunctionExists.c
+        Linking C executable cmTC_7c6ff
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c6ff.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_7c6ff.dir/CheckFunctionExists.c.o -o cmTC_7c6ff  -lICE
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-UrOFFa'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-UrOFFa'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-8isO5B"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-8isO5B"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-8isO5B'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_690f9/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-8isO5B'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_690f9.dir/build.make CMakeFiles/cmTC_690f9.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-8isO5B'
+        Building C object CMakeFiles/cmTC_690f9.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_690f9.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-8isO5B/test_mpi.c
+        Linking C executable cmTC_690f9
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_690f9.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_690f9.dir/test_mpi.c.o -o cmTC_690f9  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-8isO5B'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-8isO5B'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-m8bcQq"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-m8bcQq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-m8bcQq'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7e1b8/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-m8bcQq'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7e1b8.dir/build.make CMakeFiles/cmTC_7e1b8.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-m8bcQq'
+        Building C object CMakeFiles/cmTC_7e1b8.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_7e1b8.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-m8bcQq/test_mpi.c
+        Linking C executable cmTC_7e1b8
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e1b8.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_7e1b8.dir/test_mpi.c.o -o cmTC_7e1b8  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-m8bcQq'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-m8bcQq'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-sokZ6I"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-sokZ6I"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-sokZ6I'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_97134/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-sokZ6I'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_97134.dir/build.make CMakeFiles/cmTC_97134.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-sokZ6I'
+        Building C object CMakeFiles/cmTC_97134.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_97134.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-sokZ6I/test_mpi.c
+        Linking C executable cmTC_97134
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97134.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_97134.dir/test_mpi.c.o -o cmTC_97134  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-sokZ6I'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-sokZ6I'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NOjSdV"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NOjSdV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NOjSdV'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c1638/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NOjSdV'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c1638.dir/build.make CMakeFiles/cmTC_c1638.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NOjSdV'
+        Building C object CMakeFiles/cmTC_c1638.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c1638.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NOjSdV/test_mpi.c
+        Linking C executable cmTC_c1638
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1638.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_c1638.dir/test_mpi.c.o -o cmTC_c1638  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NOjSdV'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NOjSdV'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-MFcdFg"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-MFcdFg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-MFcdFg'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5aa5b/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-MFcdFg'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5aa5b.dir/build.make CMakeFiles/cmTC_5aa5b.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-MFcdFg'
+        Building C object CMakeFiles/cmTC_5aa5b.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_5aa5b.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-MFcdFg/test_mpi.c
+        Linking C executable cmTC_5aa5b
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa5b.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_5aa5b.dir/test_mpi.c.o -o cmTC_5aa5b  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-MFcdFg'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-MFcdFg'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-aRzFdK"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-aRzFdK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-aRzFdK'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3598a/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-aRzFdK'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3598a.dir/build.make CMakeFiles/cmTC_3598a.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-aRzFdK'
+        Building C object CMakeFiles/cmTC_3598a.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_3598a.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-aRzFdK/test_mpi.c
+        Linking C executable cmTC_3598a
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3598a.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_3598a.dir/test_mpi.c.o -o cmTC_3598a  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-aRzFdK'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-aRzFdK'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Y4VMCS"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Y4VMCS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Y4VMCS'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a58f0/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Y4VMCS'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a58f0.dir/build.make CMakeFiles/cmTC_a58f0.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Y4VMCS'
+        Building C object CMakeFiles/cmTC_a58f0.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a58f0.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Y4VMCS/test_mpi.c
+        Linking C executable cmTC_a58f0
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a58f0.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a58f0.dir/test_mpi.c.o -o cmTC_a58f0  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Y4VMCS'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Y4VMCS'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-L8FTOe"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-L8FTOe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-L8FTOe'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_98769/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-L8FTOe'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_98769.dir/build.make CMakeFiles/cmTC_98769.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-L8FTOe'
+        Building C object CMakeFiles/cmTC_98769.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_98769.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-L8FTOe/test_mpi.c
+        Linking C executable cmTC_98769
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98769.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_98769.dir/test_mpi.c.o -o cmTC_98769  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-L8FTOe'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-L8FTOe'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-iSO2Iz"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-iSO2Iz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-iSO2Iz'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_daa48/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-iSO2Iz'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_daa48.dir/build.make CMakeFiles/cmTC_daa48.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-iSO2Iz'
+        Building C object CMakeFiles/cmTC_daa48.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_daa48.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-iSO2Iz/test_mpi.c
+        Linking C executable cmTC_daa48
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daa48.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_daa48.dir/test_mpi.c.o -o cmTC_daa48  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-iSO2Iz'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-iSO2Iz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/lib/cmake/pybind11/pybind11Common.cmake:294 (check_cxx_compiler_flag)"
+      - "/usr/lib/cmake/pybind11/pybind11Common.cmake:336 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "/usr/lib/cmake/pybind11/pybind11Common.cmake:392 (_pybind11_generate_lto)"
+      - "/usr/lib/cmake/pybind11/pybind11Config.cmake:250 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    checks:
+      - "Performing Test HAS_FLTO"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-s44Jai"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-s44Jai"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "HAS_FLTO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-s44Jai'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9cb03/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-s44Jai'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9cb03.dir/build.make CMakeFiles/cmTC_9cb03.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-s44Jai'
+        Building CXX object CMakeFiles/cmTC_9cb03.dir/src.cxx.o
+        /usr/lib/ccache/g++ -DHAS_FLTO  -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_9cb03.dir/src.cxx.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-s44Jai/src.cxx
+        Linking CXX executable cmTC_9cb03
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb03.dir/link.txt --verbose=1
+        /usr/lib/ccache/g++ CMakeFiles/cmTC_9cb03.dir/src.cxx.o -o cmTC_9cb03  -flto
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-s44Jai'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-s44Jai'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NzqSe4"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NzqSe4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NzqSe4'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4f5a5/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NzqSe4'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4f5a5.dir/build.make CMakeFiles/cmTC_4f5a5.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NzqSe4'
+        Building C object CMakeFiles/cmTC_4f5a5.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_4f5a5.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NzqSe4/test_mpi.c
+        Linking C executable cmTC_4f5a5
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f5a5.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_4f5a5.dir/test_mpi.c.o -o cmTC_4f5a5  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NzqSe4'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-NzqSe4'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Hk5uK0"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Hk5uK0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Hk5uK0'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_32f0a/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Hk5uK0'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_32f0a.dir/build.make CMakeFiles/cmTC_32f0a.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Hk5uK0'
+        Building C object CMakeFiles/cmTC_32f0a.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_32f0a.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Hk5uK0/test_mpi.c
+        Linking C executable cmTC_32f0a
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32f0a.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_32f0a.dir/test_mpi.c.o -o cmTC_32f0a  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Hk5uK0'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Hk5uK0'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-1aEB2V"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-1aEB2V"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-1aEB2V'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_510fd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_510fd.dir/build.make CMakeFiles/cmTC_510fd.dir/build
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-1aEB2V'
+        Building C object CMakeFiles/cmTC_510fd.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_510fd.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-1aEB2V/test_mpi.c
+        Linking C executable cmTC_510fd
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_510fd.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_510fd.dir/test_mpi.c.o -o cmTC_510fd  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-1aEB2V'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-nRd7Jd"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-nRd7Jd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-nRd7Jd'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f543a/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-nRd7Jd'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f543a.dir/build.make CMakeFiles/cmTC_f543a.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-nRd7Jd'
+        Building C object CMakeFiles/cmTC_f543a.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f543a.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-nRd7Jd/test_mpi.c
+        Linking C executable cmTC_f543a
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f543a.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_f543a.dir/test_mpi.c.o -o cmTC_f543a  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-nRd7Jd'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-nRd7Jd'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:13 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-x5Spb7"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-x5Spb7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-x5Spb7'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_206fb/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-x5Spb7'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_206fb.dir/build.make CMakeFiles/cmTC_206fb.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-x5Spb7'
+        Building C object CMakeFiles/cmTC_206fb.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_206fb.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-x5Spb7/test_mpi.c
+        Linking C executable cmTC_206fb
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_206fb.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_206fb.dir/test_mpi.c.o -o cmTC_206fb  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-x5Spb7'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-x5Spb7'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:13 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-dHbuaN"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-dHbuaN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-dHbuaN'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_95ea5/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-dHbuaN'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_95ea5.dir/build.make CMakeFiles/cmTC_95ea5.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-dHbuaN'
+        Building C object CMakeFiles/cmTC_95ea5.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_95ea5.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-dHbuaN/test_mpi.c
+        Linking C executable cmTC_95ea5
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95ea5.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_95ea5.dir/test_mpi.c.o -o cmTC_95ea5  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-dHbuaN'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-dHbuaN'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-GXVo2K"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-GXVo2K"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-GXVo2K'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_34981/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-GXVo2K'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_34981.dir/build.make CMakeFiles/cmTC_34981.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-GXVo2K'
+        Building C object CMakeFiles/cmTC_34981.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_34981.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-GXVo2K/test_mpi.c
+        Linking C executable cmTC_34981
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34981.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_34981.dir/test_mpi.c.o -o cmTC_34981  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-GXVo2K'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-GXVo2K'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1327 (_MPI_try_staged_settings)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:270 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:319 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:540 (find_external_library)"
+      - "/home/sujee/Downloads/cmake-3.31.3-linux-x86_64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/ros/humble/lib/x86_64-linux-gnu/rtabmap-0.21/RTABMapConfig.cmake:7 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Go0Izn"
+      binary: "/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Go0Izn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs;/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Go0Izn'
+        
+        Run Build Command(s): /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_088b7/fast
+        gmake[1]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Go0Izn'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_088b7.dir/build.make CMakeFiles/cmTC_088b7.dir/build
+        gmake[2]: Entering directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Go0Izn'
+        Building C object CMakeFiles/cmTC_088b7.dir/test_mpi.c.o
+        /usr/lib/ccache/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_088b7.dir/test_mpi.c.o -c /home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Go0Izn/test_mpi.c
+        Linking C executable cmTC_088b7
+        /home/sujee/Downloads/cmake-3.31.3-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_088b7.dir/link.txt --verbose=1
+        /usr/lib/ccache/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_088b7.dir/test_mpi.c.o -o cmTC_088b7  /usr/lib/x86_64-linux-gnu/libmpi.so
+        gmake[2]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Go0Izn'
+        gmake[1]: Leaving directory '/home/sujee/sick_gui/build/CMakeFiles/CMakeScratch/TryCompile-Go0Izn'
+        
+      exitCode: 0
+...
