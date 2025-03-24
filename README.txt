@@ -10,3 +10,4 @@ source /opt/ros/humble/setup.bash -- ros dependent libraries
 
 Starting point of the code is main.cpp which calls main.py as well using pybind method.
 
+![Alt text](sick.png)
