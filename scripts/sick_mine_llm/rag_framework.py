@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # load api key
-os.environ["NVIDIA_API_KEY"] = os.getenv("NVIDIA_API_KEY", "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")
+os.environ["NVIDIA_API_KEY"] = os.getenv("NVIDIA_API_KEY", "")
 # print(os.environ["NVIDIA_API_KEY"])
 
 
@@ -57,7 +57,7 @@ def create_vector_store(splitted_documents):
 
 def create_llm_model():
     """Creates a GPT-3.5-turbo model interface."""
-    openai.api_key = os.getenv("OPENAI_API_KEY",'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')
+    openai.api_key = os.getenv("OPENAI_API_KEY",'')
     return openai
 
 def get_response(llm, vector_DB, question, chat_history):

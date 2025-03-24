@@ -25,7 +25,7 @@ def process_chat(prompt):
     load_dotenv()
 
     # Load API key
-    os.environ["NVIDIA_API_KEY"] = os.getenv("NVIDIA_API_KEY", "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")
+    os.environ["NVIDIA_API_KEY"] = os.getenv("")
     UPLOAD_DIR = r"/home/sujee/sick_gui/scripts/sick_mine_llm/local_database"
 
     # Ensure the UPLOAD_DIR directory exists
