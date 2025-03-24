@@ -6,3 +6,6 @@ make
 
 How to run?
 ./sick_app
+
+Starting point of the code is main.cpp which calls main.py as well using pybind method.
+
