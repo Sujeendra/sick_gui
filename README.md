@@ -18,3 +18,8 @@ source /opt/ros/humble/setup.bash -- ros dependent libraries
   <img src="sick.png" width="600"/>
 </p>
 
+<p align="center">
+  <img src="sick_challenge.jpeg" width="600"/>
+</p>
+
+[Submission:](https://youtu.be/Kd0WLjaqSZQ)
